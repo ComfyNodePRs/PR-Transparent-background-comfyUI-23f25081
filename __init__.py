@@ -40,7 +40,7 @@ class TransparentBackgroundRembg:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "model_path": ("PATH"),
+                "model_path": ("STRING"),
                 "image": ("IMAGE"),
             },
         }
